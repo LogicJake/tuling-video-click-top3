@@ -11,6 +11,6 @@
 
 **赛道链接**：https://www.turingtopia.com/competitionnew/detail/e4880352b6ef4f9f8f28e8f98498dbc4/sketch       
 **赛程时间**：*2019.11.11-2020.03.09*  
-**参与人**:[第一次打比赛](https://github.com/LogicJake)、[郑](https://github.com/jackhuntcn) 、[小兔子乖乖](https://github.com/PandasCute) 、[Freak](https://github.com/PandasCute) 
+**参与人**:[第一次打比赛](https://github.com/LogicJake)、[郑](https://github.com/jackhuntcn) 、[小兔子乖乖](https://github.com/PandasCute) 、   [Freak](https://github.com/PandasCute)    
 **百度云盘下载链接**:为避免数据丢失，提供数据集下载地址链接：https://pan.baidu.com/s/1RoGBAknW7O_AfS-x6CSHWA 提取码：bgk2       
 **数据集解释**：官方下载数据集命名可能不一样    
