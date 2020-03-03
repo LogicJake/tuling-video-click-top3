@@ -84,8 +84,8 @@
 ## 3.运行代码步骤说明  
 分别按照代码顺序  
 运行1,2,3,4 
-> 1 feature.ipynb	 特征工程 
-> 2 fold_model.ipynb	    
+> 1 feature.ipynb	 特征工程   
+> 2 fold_model.ipynb	     
 > 3 offline_model.ipynb 离线模型  
 > 4 online_model.ipynb 线上模型 
 
