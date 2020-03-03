@@ -56,6 +56,21 @@
 | 字段     | 中文名| 数据类型|  说明 |
 |:-------:|:-------:|:-------:|:-------:|
 |id|	用户ID|	VARCHAR2(50)|	test_1到test_3653592|
-|deviceid|	设备ID|	VARCHAR2(50)|用户的设备id|
+|**deviceid**|	设备ID|	VARCHAR2(50)|用户的设备id|
 |applist deviceid|视频ID|	VARCHAR2(50)|用户所拥有的app，我们已将app的名字设置成了app_1,app_2..的形式。|
+
+**test.csv**
+
+| 字段     | 中文名| 数据类型|  说明 |
+|:-------:|:-------:|:-------:|:-------:|
+|id|	用户ID|	VARCHAR2(50)|	test_1到test_3653592|
+|deviceid|	设备ID|	VARCHAR2(50)|用户的设备id|
+|guid|注册ID|	VARCHAR2(50)|	用户的注册id。|
+|outertag|推荐位置|	VARCHAR2(50)|用户画像用|分隔，冒号后面的数字代表对该标签的符合程度，分数越高代表该标签越符合该用户。|
+|tag|app版本|	VARCHAR2(50)|	app版本。|
+|level|设备厂商|	VARCHAR2(50)|	设备厂商|
+|personidentification|网络类型|	VARCHAR2(50)|	网络类型。|
+|followscore|操作系统版本|	VARCHAR2(50)|	操作系统版本。|
+|personalscore|经度|	VARCHAR2(50)|经度。|
+|gender|维度|	VARCHAR2(50)|	维度。|
 
