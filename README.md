@@ -12,4 +12,24 @@
 **参与人**：[第一次打比赛](https://github.com/LogicJake)、[郑](https://github.com/jackhuntcn) 、[小兔子乖乖](https://github.com/PandasCute) 、   [Freak](https://github.com/PandasCute)   
 **方案文档**：[文档链接](https://www.logicjake.xyz/2020/02/10/%E5%9B%BE%E7%81%B5%E8%81%94%E9%82%A6%E8%A7%86%E9%A2%91%E7%82%B9%E5%87%BB%E9%A2%84%E6%B5%8B%E5%A4%A7%E8%B5%9B-%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/)      
 **百度云盘下载链接**:为避免数据丢失，提供数据集下载地址链接: https://pan.baidu.com/s/1YPtg4QyiAdhRAMoxjis_Gw  密码: 0a3r       
-**数据集解释**：官方下载数据集命名可能不一样    
+## 1.数据说明  
+
+
+| 字段     | 中文名| 数据类型|  说明 |
+|:-------:|:-------:|:-------:|:-------:|
+|id|	用户ID|	VARCHAR2(50)|	代表数据集的第几条数据，从1到11376681|
+|target|	是否点击|	VARCHAR2(50)|	代表该视频是否被用户点击了，1代表点击，0代表未点击。|
+|timestamp|修改时间戳|	VARCHAR2(50)|代表改用户点击改视频的时间戳，如果未点击则为NULL。|
+|deviceid|	设备ID|	VARCHAR2(50)|用户的设备id|
+|newsid|视频ID|	VARCHAR2(50)|视频的id。|
+|guid|	用户ID|	VARCHAR2(50)|	用户的注册id。|
+|pos|	用户ID|	VARCHAR2(50)|	视频推荐位置|
+|app_version|	用户ID|	VARCHAR2(50)|	app版本。|
+|device_vendor|	用户ID|	VARCHAR2(50)|	设备厂商|
+|netmodel|	用户ID|	VARCHAR2(50)|	网络类型。|
+|osversion|	用户ID|	VARCHAR2(50)|	操作系统版本。|
+|lng|	用户ID|	VARCHAR2(50)|经度。|
+|lat|	用户ID|	VARCHAR2(50)|	维度。|
+|device_version|	用户ID|	VARCHAR2(50)|	设备版本。|
+|ts|	用户ID|时间戳|	视频暴光给用户的时间戳。|
+
