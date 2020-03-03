@@ -51,7 +51,7 @@
 |device_version|设备版本|	VARCHAR2(50)|	设备版本。|
 |ts|	用户ID|时间戳|	视频暴光给用户的时间戳。|
 
-**app.csv*
+**app.csv**
 
 | 字段     | 中文名| 数据类型|  说明 |
 |:-------:|:-------:|:-------:|:-------:|
@@ -66,11 +66,34 @@
 |id|	用户ID|	VARCHAR2(50)|	test_1到test_3653592|
 |deviceid|	设备ID|	VARCHAR2(50)|用户的设备id|
 |guid|注册ID|	VARCHAR2(50)|	用户的注册id。|
-|outertag|推荐位置|	VARCHAR2(50)|用户画像用|分隔，冒号后面的数字代表对该标签的符合程度，分数越高代表该标签越符合该用户。|
-|tag|app版本|	VARCHAR2(50)|	app版本。|
-|level|设备厂商|	VARCHAR2(50)|	设备厂商|
-|personidentification|网络类型|	VARCHAR2(50)|	网络类型。|
-|followscore|操作系统版本|	VARCHAR2(50)|	操作系统版本。|
-|personalscore|经度|	VARCHAR2(50)|经度。|
-|gender|维度|	VARCHAR2(50)|	维度。|
+|outertag|用户画像|	VARCHAR2(50)|用户画像用竖号分隔，冒号后面的数字代表对该标签的符合程度，分数越高代表该标签越符合该用户。|
+|tag|用户画像|	VARCHAR2(50)|同outertag|
+|level|用户等级|	VARCHAR2(50)|用户等级。|
+|personidentification|是否优劣|	VARCHAR2(50)|1表示劣质用户 0表示正常用户。|
+|followscore|徒弟分|	VARCHAR2(50)|徒弟分（好友分）。 |
+|personalscore|个人分|	VARCHAR2(50)|个人分。 |
+|gender|性别|	VARCHAR2(50)|性别|
+
+## 2.配置环境与依赖库 
+  - python3
+  - scikit-learn
+  - gensim
+  - Ubuntu   
+  - LightGBM
+  - notebook 
+## 3.运行代码步骤说明  
+分别按照代码顺序  
+运行1,2,3,4 
+> 1 feature.ipynb	 特征工程
+> 2 fold_model.ipynb	 
+> 3 offline_model.ipynb 离线模型
+> 4 online_model.ipynb 线上模型
+
+## 4.特征工程      
+ - **原始特征**     
+ - **穿越特征**   
+ - **统计特征** 
+ - **embedding特征**     
+## 5.模型训练   
+单模，初赛最终榜：0.83695 线上第三
 
