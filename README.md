@@ -33,3 +33,29 @@
 |device_version|设备版本|	VARCHAR2(50)|	设备版本。|
 |ts|	用户ID|时间戳|	视频暴光给用户的时间戳。|
 
+**test.csv**
+
+| 字段     | 中文名| 数据类型|  说明 |
+|:-------:|:-------:|:-------:|:-------:|
+|id|	用户ID|	VARCHAR2(50)|	test_1到test_3653592|
+|deviceid|	设备ID|	VARCHAR2(50)|用户的设备id|
+|newsid|视频ID|	VARCHAR2(50)|视频的id。|
+|guid|注册ID|	VARCHAR2(50)|	用户的注册id。|
+|pos|推荐位置|	VARCHAR2(50)|	视频推荐位置|
+|app_version|app版本|	VARCHAR2(50)|	app版本。|
+|device_vendor|设备厂商|	VARCHAR2(50)|	设备厂商|
+|netmodel|网络类型|	VARCHAR2(50)|	网络类型。|
+|osversion|操作系统版本|	VARCHAR2(50)|	操作系统版本。|
+|lng|经度|	VARCHAR2(50)|经度。|
+|lat|维度|	VARCHAR2(50)|	维度。|
+|device_version|设备版本|	VARCHAR2(50)|	设备版本。|
+|ts|	用户ID|时间戳|	视频暴光给用户的时间戳。|
+
+**app.csv*
+
+| 字段     | 中文名| 数据类型|  说明 |
+|:-------:|:-------:|:-------:|:-------:|
+|id|	用户ID|	VARCHAR2(50)|	test_1到test_3653592|
+|deviceid|	设备ID|	VARCHAR2(50)|用户的设备id|
+|applist deviceid|视频ID|	VARCHAR2(50)|用户所拥有的app，我们已将app的名字设置成了app_1,app_2..的形式。|
+
